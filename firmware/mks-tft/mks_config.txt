@@ -1,0 +1,97 @@
+#Motherboard type(1:marlin;2:repetier;3:smoothie)
+>cfg_firmware_type:1
+
+#Model(1:Normal;2:Delta)
+>cfg_machine_type:1
+
+#Language(1:simpleChinese;2:English)
+>cfg_language_type:2
+
+#Finished shutdown function config.?0:Do Not Shut Down,1:Finish Off?
+>cfg_print_finish_close_Machine:0
+
+#Pause position(-1:Invalid;Z The axis is the relative position)
+>cfg_XPOS:-1
+>cfg_YPOS:-1
+>cfg_ZADD:10
+
+#Nozzle(1:Single head,2:Double head)
+>cfg_sprayer_counter:1
+
+#Hot bed(1:Heated Bed?0:Non Heated Bed)
+>cfg_custom_bed_flag:1
+
+#Nozzle / hot bed maximum target temperature
+>cfg_max_sprayer_temperature:270
+>cfg_max_hotbed_temperature:150
+
+#Offset interface PB1 level config.(0:Low level1:High level)
+>cfg_PB0_PB1_Level:1
+
+#wifi Mode(1:AP,0:STA)
+>cfg_wifi_mode:1
+
+#wifi Name / password
+>cfg_wifi_ap_name:MKS_wifi
+>cfg_wifi_key_code:makerbase
+
+#Dynamic acquisition IP
+>cfg_ip_dhcp_flag:1
+
+#IP /Mask / gateway
+>cfg_ip_address:192.168.3.100
+>cfg_ip_mask:255.255.255.0
+>cfg_ip_gate:192.168.3.1
+
+#Screen background color
+>cfg_background_color:0x494949
+
+#Title text color
+>cfg_title_color:0xFFFFFF
+
+#Temperature and other state background color
+>cfg_state_background_color:0x494949
+
+#Temperature and other state text color
+>cfg_state_text_color:0xFFFFFF
+
+#File button on file name font background color
+>cfg_filename_background_color:0x494949
+
+#File button on file name font color
+>cfg_filename_color:0xFFFFFF
+
+#Print status information font background color
+>cfg_printingstat_word_background_color:0x494949
+
+#Print status information font color
+>cfg_printingstat_word_color:0xFFFFFF
+
+#Button 3D effect(0:No,1:Yes)
+>cfg_BUTTON_3D_effects:1
+
+#Function button (0:Do not show,1:Display)
+>cfg_function_btn1_display:1
+>cfg_function_btn2_display:0
+
+#Function command line
+>function_btn1_cmd:M84;
+>function_btn2_cmd:M81;
+
+#More button number
+>moreitem_pic_cnt:6
+
+#Button 1 ~ Button 7
+>moreitem_button1_cmd:G28 X0;
+
+>moreitem_button2_cmd:G28 X0;
+
+>moreitem_button3_cmd:G28 Y0;
+
+>moreitem_button4_cmd:G28 Y0;
+
+>moreitem_button5_cmd:G28 Z0;
+
+>moreitem_button6_cmd:G28 Z0;
+
+>moreitem_button7_cmd:G28;

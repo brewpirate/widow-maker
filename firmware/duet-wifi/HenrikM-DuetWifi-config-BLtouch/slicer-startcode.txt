@@ -1,0 +1,13 @@
+M376 H5	; probe fade level to level out the print 5mm
+G21	;metric values 
+G90	;absolute positioning
+M83 	;set extruder to relative mode
+;;;M82	;set extruder to absolute mode 
+G32 	;probe
+G92 E0 	;zero the extruded length
+G1 X0.0 Y50.0 Z10.0 F3600
+G1 Z0.0 F1000
+G1 Z0.2 Y70.0 E9.0 F1000.0 ; prime
+G1 Y100.0 E12.5 F1000.0 ; prime
+G92 E0 ; zero extruder again
+M117 Printing...
