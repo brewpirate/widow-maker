@@ -1,0 +1,9 @@
+[submodule "firmware/tevo-black-widow-marlin"]
+	path = firmware/tevo-black-widow-marlin
+	url = https://github.com/brewpirate/tevo-black-widow-marlin
+[submodule "firmware/Unbr8kbal/Black-Widow-Marlin"]
+	path = firmware/Unbr8kbal/Black-Widow-Marlin
+	url = https://github.com/Unbr8kbal/Black-Widow-Marlin
+[submodule "firmware/dot-bob/Marlin-Tevo-Black-Widow"]
+	path = firmware/dot-bob/Marlin-Tevo-Black-Widow
+	url = https://github.com/dot-bob/Marlin-Tevo-Black-Widow
