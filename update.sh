@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+echo $1
 function community_guide {
 
   if [ $1 = "update" ]; then
